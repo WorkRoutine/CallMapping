@@ -7,7 +7,7 @@ CallMap is a tiny tools to draw C-function call.
 
   Download newest branch from github
   ```
-    git clone 
+    git clone https://github.com/BiscuitOS/CallMap.git 
   ```
 
   Install tools.
