@@ -13,7 +13,7 @@
 . /etc/CallMap/CallMap.conf
 
 PWD=`pwd`
-${CALLMAP} -f $1 -d ${SOURCE_TREE} -b ${BROWSER} -D ${TREE_DEEP} > /dev/null 2>&1
-sleep 2
+${CALLMAP} -f $1 -d ${SOURCE_TREE} -b ${BROWSER} -D ${TREE_DEEP}
+sleep 20
 rm -rf *.svg
 
